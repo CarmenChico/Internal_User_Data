@@ -1,0 +1,60 @@
+.container {
+  width: 80%;
+  margin: 25px auto;
+  align-item:center;
+  text-align: center;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+    .user {
+      // display: flex;
+      // flex
+
+      img {
+        height: 204px;
+        width: auto;
+      }
+      .data {
+        //cihco
+        margin-top:15px;
+          .name {
+            font-weight: bolder;
+            text-transform: uppercase;
+            text-decoration:underline;
+            letter-spacing: 1px;
+            border-bottom: 3px solid green;
+            // text-decoration-color:yellow;
+            // text-decoration-style: solid;
+            margin-bottom:15px;
+          }
+          .email {
+            text-transform: uppercase;
+            color: lightgrey;
+            font-weight: 100;
+            font-size: 13px;
+            margin-bottom:15px;
+          }
+          .other {
+            text-transform: capitalize;
+            margin:20px;
+            color:grey;
+            font-weight: 100;
+            line-height: 30px;
+          }
+          .blur {
+            color:lightgreen;
+            transition: all 1s ease;
+            margin-bottom: 20px;
+            font-size: smaller;
+            font-weight: 100;
+          }
+          .blur:hover {
+            filter: blur(5px);
+          }
+      }
+    }
+}
