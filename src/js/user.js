@@ -51,7 +51,7 @@ function ExtractUser (user) {
                     <span>${ city },</span><span> ${ state }, </span><span> ${ zip } </span><br>
                     <span>${ contact }</span>
                 </div>
-                <div class="blur">
+                <div class="blur section">
                   <span>${ssn}</span>
                 </div>
 
@@ -68,5 +68,3 @@ function ExtractUser (user) {
 
 
     export { getProfile, ExtractUser };
-
-  // <span> ${ fname } </span><span>${ lname }</span>

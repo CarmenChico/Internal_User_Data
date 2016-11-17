@@ -1,8 +1,14 @@
 .container {
-  width: 80%;
+  width: 95%;
   margin: 25px auto;
-  align-item:center;
   text-align: center;
+
+}
+
+h1 {
+  margin: 40px;
+  font-family: 'Neuton', serif;
+  font-size: 40px;
 }
 
 .users {
@@ -15,8 +21,8 @@
       // flex
 
       img {
-        height: 204px;
-        width: auto;
+        height: 250px;
+        width: 250px;
       }
       .data {
         //cihco
@@ -24,37 +30,66 @@
           .name {
             font-weight: bolder;
             text-transform: uppercase;
-            text-decoration:underline;
+            // text-decoration:underline;
             letter-spacing: 1px;
-            border-bottom: 3px solid green;
+            // border-bottom: 3px solid green;
             // text-decoration-color:yellow;
             // text-decoration-style: solid;
-            margin-bottom:15px;
+            // margin-bottom:15px;
           }
+          .name:after {
+            background: #21c121;
+            content: "";
+            display: inline-block;
+            height: 3px;
+            width: 160px;
+            margin-left: 22%;
+            margin-right: 36%;
+            margin-bottom: 5px;
+            // display: block;
+            // height: 3px;
+            // width: 145px;
+            // margin-top: 5px;
+            // margin-left: 30%;
+            // margin-right: 40%;
+            // margin-bottom: 45px;
+            // max-width: 270px;
+            // padding: 0;
+          }
+
           .email {
             text-transform: uppercase;
             color: lightgrey;
             font-weight: 100;
-            font-size: 13px;
+            font-size: 15px;
             margin-bottom:15px;
+            font-family: 'Josefin Sans', sans-serif;
           }
           .other {
             text-transform: capitalize;
             margin:20px;
             color:grey;
             font-weight: 100;
-            line-height: 30px;
+            line-height: 28px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
           }
           .blur {
+            filter: blur(5px);
+            font-size: 12px;
             color:lightgreen;
-            transition: all 1s ease;
-            margin-bottom: 20px;
-            font-size: smaller;
-            font-weight: 100;
+            margin-bottom: 30px;
           }
           .blur:hover {
-            filter: blur(5px);
+            filter: none;
+            transition: 0.5s;
           }
       }
     }
 }
+
+// .email:before {
+//   content: "--------";
+//
+//   color:green;
+// }
